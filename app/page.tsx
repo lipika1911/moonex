@@ -1,9 +1,18 @@
+import About from "@/components/about";
+import FAQ from "@/components/faq";
+import Footer from "@/components/footer";
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex justify-center items-center text-5xl text-primary">
-      Moonex
-    </div>
+    <main className="min-h-screen mx-8">
+      <Navbar />
+      <Hero />
+      <About />
+      <FAQ />
+      <Footer />
+    </main>
   );
 }
