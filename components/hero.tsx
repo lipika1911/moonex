@@ -2,8 +2,12 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='min-h-150 flex flex-row items-center justify-center px-8 py-8 mx-10 gap-30'>
+    <div className='min-h-150 flex flex-row items-center justify-center px-8 py-8 mx-10 gap-30 '>
+
+      {/* main hero content */}
       <div className='flex flex-col items-start px-4'>
+
+        {/* hero text */}
         <div className='flex flex-col items-start'>
           <h2 className='font-neue text-7xl text-foreground font-extrabold mt-20'>
             Trusted Multi-Chain <span className='text-primary'>DEX</span> Platform
@@ -12,6 +16,8 @@ const Hero = () => {
             Trade, earn, and own crypto on the all-in-one multi-chain DEX
           </p>
         </div>
+
+        {/* cta buttons */}
         <div className="flex flex-row items-start mt-10 gap-4">
           <button
             className="
@@ -41,6 +47,8 @@ const Hero = () => {
         </div>
 
       </div>
+
+      {/* yellow circle */}
       <div className="flex justify-center items-center">
           <div
             className="
@@ -52,6 +60,7 @@ const Hero = () => {
             "
           ></div>
       </div>
+      
     </div>
   )
 }

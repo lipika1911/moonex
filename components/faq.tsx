@@ -28,7 +28,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="px-8 py-20 max-w-4xl mx-auto mt-20">
+    <div id="faq"className="px-8 py-20 max-w-4xl mx-auto mt-20">
       <h2 className="font-neue text-5xl font-bold text-center mb-12">
         Frequently <span className="text-primary">Asked Questions</span>
       </h2>

@@ -5,7 +5,7 @@ import { FaTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#071624] px-20 py-20'>
+    <footer id="footer" className='bg-[#071624] px-20 py-20 mt-20'>
       <div className='flex flex-row justify-between items-center' >
 
         {/* Logo */}

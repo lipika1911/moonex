@@ -4,6 +4,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav className="w-full py-8 px-20 flex justify-between items-center mx-auto">
+
+      {/* Logo */}
       <div className='flex flex-row gap-4 items-center'>
         <Image 
           src="/logo.svg" 
@@ -16,6 +18,8 @@ const Navbar = () => {
           Moonex
         </h1>
       </div>
+
+      {/* nav links */}
       <div className="flex gap-20 text-lg font-bold text-foreground">
         <a href="#" className="hover:text-primary">Home</a>
         <a href="#about" className="hover:text-primary transition">About Us</a>
@@ -23,6 +27,8 @@ const Navbar = () => {
         <a href="#faq" className="hover:text-primary transition">FAQs</a>
         <a href="#footer" className="hover:text-primary transition">Contact Us</a>
       </div>
+
+      {/* cta button */}
       <div>
         <button
           className="
@@ -37,6 +43,7 @@ const Navbar = () => {
           Connect Wallet
         </button>
       </div>
+
     </nav>
   )
 }

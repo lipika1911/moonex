@@ -45,7 +45,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${raleway.variable} ${neueMachina.variable} antialiased`}
+        className={`
+          ${raleway.variable} 
+          ${neueMachina.variable} 
+          antialiased
+          min-h-screen
+          bg-          
+          bg-[url('/bg.png')]   
+          bg-cover  
+          bg-center  
+          bg-no-repeat   
+        `}
       >
         <Navbar />
         {children}
