@@ -13,6 +13,9 @@ Trusted multi-chain DEX platform. Trade, earn, and own crypto on the all-in-one 
 
 ### View Feedbacks Page
 ![Feedbacks Page](./screenshots/about-page.jpeg)
+
+### Public API Page (/posts)
+![Public API Page](./screenshots/public-api.jpeg)
 ## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/)  
