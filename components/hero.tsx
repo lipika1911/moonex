@@ -2,23 +2,46 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='min-h-150 flex flex-row items-center justify-center px-8 py-8 mx-10 gap-30 '>
+    <div
+      className="
+        flex flex-col-reverse lg:flex-row
+        items-center justify-center
+        px-6 md:px-12 lg:px-20
+        lg:py-30
+        mx-auto gap-10 lg:gap-30
+        text-center lg:text-left
+      "
+    >
 
       {/* main hero content */}
-      <div className='flex flex-col items-start px-4'>
+      <div className="flex flex-col items-center lg:items-start max-w-xl lg:max-w-7xl px-2">
 
         {/* hero text */}
-        <div className='flex flex-col items-start'>
-          <h2 className='font-neue text-7xl text-foreground font-extrabold mt-20'>
-            Trusted Multi-Chain <span className='text-primary'>DEX</span> Platform
-          </h2>
-          <p className='text-white/70 text-2xl tracking-wider font-stretch-50% mt-2'>
-            Trade, earn, and own crypto on the all-in-one multi-chain DEX
-          </p>
-        </div>
+        <h2
+          className="
+            font-neue 
+            text-4xl md:text-5xl lg:text-7xl 
+            text-foreground font-extrabold 
+            mt-10 lg:mt-20
+          "
+        >
+          Trusted Multi-Chain <span className="text-primary">DEX</span> Platform
+        </h2>
+
+        <p
+          className="
+            text-white/70 
+            text-lg md:text-xl lg:text-2xl
+            tracking-wider 
+            mt-4
+            max-w-md
+          "
+        >
+          Trade, earn, and own crypto on the all-in-one multi-chain DEX
+        </p>
 
         {/* cta buttons */}
-        <div className="flex flex-row items-start mt-10 gap-4">
+        <div className="flex flex-row mt-8 gap-4">
           <button
             className="
               px-6 py-3 
@@ -38,7 +61,7 @@ const Hero = () => {
               px-6 py-3 
               rounded-full 
               font-bold 
-              text-primary
+              text-primary 
               border border-primary
             "
           >
@@ -49,18 +72,18 @@ const Hero = () => {
       </div>
 
       {/* yellow circle */}
-      <div className="flex justify-center items-center">
-          <div
-            className="
-              w-64 h-64
-              rounded-full
-              bg-linear-to-r
-              from-[#EDD955]
-              to-[#E4B40D]
-            "
-          ></div>
+      <div className="flex justify-center items-center mt-10 lg:mt-0">
+        <div
+          className="
+            w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64
+            rounded-full
+            bg-linear-to-r 
+            from-[#EDD955]
+            to-[#E4B40D]
+          "
+        ></div>
       </div>
-      
+
     </div>
   )
 }
