@@ -1,4 +1,5 @@
 import { Check, DollarSign, PhoneOff, ShieldCheck, SlidersHorizontal, X } from "lucide-react";
+import Image from "next/image";
 
 const rows = [
   "1. Point no one",
@@ -27,10 +28,24 @@ const About = () => {
                   Comparison
                 </th>
                 <th className="py-4 px-20 text-primary border-r border-white/10 text-center text-3xl">
-                  MoonEX
+                  <div className="flex flex-col items-center">
+                    <Image 
+                      src="/moonex.svg" 
+                      alt="Moonex Logo" 
+                      width={300} 
+                      height={300} 
+                    />
+                  </div>
                 </th>
                 <th className="py-4 px-20 text-center text-3xl">
-                  Uniswap
+                  <div className="flex flex-col items-center">
+                    <Image 
+                      src="/uniswap.svg" 
+                      alt="Moonex Logo" 
+                      width={200} 
+                      height={200} 
+                    />
+                  </div>
                 </th>
               </tr>
             </thead>

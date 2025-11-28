@@ -8,11 +8,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen mx-8">
-      <Navbar />
       <Hero />
       <About />
       <FAQ />
-      <Footer />
     </main>
   );
 }
