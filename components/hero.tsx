@@ -34,7 +34,7 @@ const Hero = () => {
             text-lg md:text-xl lg:text-2xl
             tracking-wider 
             mt-4
-            max-w-md
+            max-w-4xl
           "
         >
           Trade, earn, and own crypto on the all-in-one multi-chain DEX

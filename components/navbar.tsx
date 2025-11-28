@@ -28,11 +28,11 @@ const Navbar = () => {
 
       {/* Desktop Links */}
       <div className="hidden md:flex gap-10 lg:gap-20 text-lg font-bold text-foreground">
-        <a href="#home" className="hover:text-primary">Home</a>
-        <a href="#about" className="hover:text-primary">About Us</a>
-        <a href="#roadmap" className="hover:text-primary">Roadmap</a>
-        <a href="#faq" className="hover:text-primary">FAQs</a>
-        <a href="#footer" className="hover:text-primary">Contact Us</a>
+        <a href="/" className="hover:text-primary">Home</a>
+        <a href="/#about" className="hover:text-primary">About Us</a>
+        <a href="/#roadmap" className="hover:text-primary">Roadmap</a>
+        <a href="/#faq" className="hover:text-primary">FAQs</a>
+        <a href="/#footer" className="hover:text-primary">Contact Us</a>
       </div>
 
       {/* Desktop Button */}
