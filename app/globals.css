@@ -3,7 +3,7 @@
 :root {
   --background: #071624;
   --foreground: #ffffff;
-  --primary: #E4B40D;
+  --primary: #EDD955;
 }
 
 body {
@@ -15,6 +15,14 @@ body {
 @layer utilities {
   .text-primary {
     color: var(--primary);
+  }
+
+  .hover\:text-primary:hover {
+    color: var(--primary);
+  }
+
+  .text-background {
+    color: var(--background)
   }
 
   .font-raleway {
